@@ -21,3 +21,8 @@ def arregloPalabras(valor):
 def palabraDeArreglo():
     nombres = ["Luis", "Angel", "María", "Angélica"]
     print("".join(nombres))
+
+def otrasFunciones(valor):
+    print(valor.replace("Python", "Luis Angel"))
+    print(valor.find("mundo"))
+    print(valor.count("Python"))
